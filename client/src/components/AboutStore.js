@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AboutStore() {
   return (
@@ -28,7 +29,8 @@ export default function AboutStore() {
             Your nails, your statement — only with Bonita. 💅
             </p>
 
-            <button
+            <Link
+            to="/products"
               className="btn btn-pink px-4 py-2"
               style={{
                 background: "#ff8ebf",
@@ -37,7 +39,7 @@ export default function AboutStore() {
               }}
             >
               Explore Products
-            </button>
+            </Link>
           </div>
 
           <div className="col-12 col-lg-6 position-relative text-center">
