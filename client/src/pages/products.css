@@ -1,0 +1,123 @@
+
+
+  /* Base styles for the section */
+.shop-section {
+    background-color: #e4cbeb; /* Light purple background */
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shop-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .breadcrumb {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .breadcrumb .active {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Image styles */
+  .left-image,
+  .right-image {
+    max-height: 300px; /* Adjust for smaller screens */
+    width: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .left-image {
+    left: -10px; /* Slight offset for better positioning */
+  }
+  
+  .right-image {
+    right: -10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .shop-section {
+      height: auto; /* Allow height to adjust */
+      padding: 20px 10px; /* Add padding for smaller screens */
+    }
+  
+    .shop-title {
+      font-size: 1.8rem; /* Smaller font size */
+    }
+  
+    .breadcrumb {
+      font-size: 0.9rem; /* Adjust breadcrumb size */
+    }
+  
+    .left-image,
+    .right-image {
+      max-height: 150px; /* Reduce image size */
+    }
+  
+    .left-image {
+      left: -5px;
+    }
+  
+    .right-image {
+      right: -5px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .shop-section {
+      text-align: center; /* Center everything for small screens */
+      height: auto;
+    }
+  
+    .left-image,
+    .right-image {
+      display: none; /* Hide images on very small screens */
+    }
+  
+    .shop-title {
+      font-size: 1.5rem; /* Further reduce font size */
+    }
+  
+    .breadcrumb {
+      font-size: 0.8rem;
+    }
+  }
+  
+
+
+  /* General styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-pink {
+    color: #e83e8c;
+  }
+  
+  .btn-light {
+    border: 1px solid #e83e8c;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .fw-bold {
+      font-size: 0.9rem;
+    }
+  }
+  
