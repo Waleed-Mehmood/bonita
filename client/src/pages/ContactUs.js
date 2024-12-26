@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
+import NavbarBackground from "../components/NavbarBackground";
 
 const ContactUs = () => {
   const primaryColor = "#fd8ebf";
 
   return (
     <>
+    <NavbarBackground />
     <div
       className="py-5 border-bottom"
       style={{ backgroundColor: "white", color: primaryColor }}

@@ -91,6 +91,7 @@ import Image2 from "../assets/firstslide-second.png";
 import Image3 from "../assets/firstslide-third.png";
 import Image6 from "../assets/secondslide-third.png";
 import Image9 from "../assets/thirdslide-third.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -119,24 +120,25 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link to='/' className="nav-link active" href="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to='/products' className="nav-link" href="#">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/about" className="nav-link" href="#">
+                  About
+                </Link>
+              </li>
+             
+              <li className="nav-item">
+                <Link to='/contact' className="nav-link" href="#">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavbarBackground.css'
 import bonita from "../assets/bonita-logo.png";
+import { Link } from 'react-router-dom';
 
 const NavbarBackground = () => {
   return (
@@ -29,24 +30,24 @@ const NavbarBackground = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link active" href="#">
+          <Link to="/" className="nav-link " href="#">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to="/products" className="nav-link" href="#">
             Products
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to='/about' className="nav-link" href="#">
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to='/contact' className="nav-link" href="#">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

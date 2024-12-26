@@ -234,7 +234,7 @@ export default function Service() {
     },
   ];
   return (
-    <section className="py-5">
+    <section className="py-5 mt-5">
       <div className="container">
         <div className="row text-center">
           {services.map((service, index) => (

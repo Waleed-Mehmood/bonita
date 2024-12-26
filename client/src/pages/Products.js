@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import "./products.css";
 import leftSide from "../assets/rightSide.png";
 import rightSide from "../assets/leftside.png";
+import NavbarBackground from "../components/NavbarBackground";
 
 export default function Products() {
 
@@ -29,6 +30,7 @@ export default function Products() {
 
   return (
     <>
+    <NavbarBackground />
       <section className="shop-section d-flex align-items-center justify-content-center position-relative">
         {/* Left Image */}
         <img

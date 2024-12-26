@@ -21,7 +21,7 @@ const OurStory = () => {
             <img
               src="https://i.pinimg.com/originals/d4/53/eb/d453eb44512a8c94facdffa8e9e88d8d.jpg"
               alt="Foreground Nail"
-              className="img-fluid rounded-circle shadow position-absolute"
+              className="img-fluid rounded-circle shadow position-absolute d-none d-md-block"
               style={{
                 width: "150px",
                 bottom: "-20px",
