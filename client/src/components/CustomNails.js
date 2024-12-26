@@ -6,7 +6,7 @@ const CustomNails = () => {
     <section className="py-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-12 col-lg-5 offset-1 text-center text-lg-start mt-4 mt-lg-0">
+          <div className="col-12 col-lg-6 text-center text-lg-start mt-4 mt-lg-0 mb-3">
             <h2
               className="mb-4"
               style={{ color: "#ff8ebf", fontWeight: "bold" }}
