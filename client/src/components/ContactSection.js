@@ -19,10 +19,10 @@ const ContactSection = () => {
           </div>
 
           {/* Right Side: Text and Button */}
-          <div className="col-12 col-lg-5 offset-1 text-center text-lg-start mt-4 mt-lg-0">
+          <div className="col-12 col-lg-6 text-center text-lg-start mt-4 mt-lg-0">
             <h2
               className="mb-4"
-              style={{ color: "#ff8ebf", fontWeight: "bold" }}
+              style={{ color: "#D781A8", fontWeight: "bold" }}
             >
               Contact US
             </h2>
@@ -39,7 +39,7 @@ const ContactSection = () => {
             to='/contact'
               className="btn btn-pink px-4 py-2"
               style={{
-                background: "#ff8ebf",
+                background: "#D781A8",
                 color: "white",
                 borderRadius: "25px",
               }}

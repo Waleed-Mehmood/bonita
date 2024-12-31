@@ -1,9 +1,11 @@
 import React from 'react'
 import './NavbarBackground.css'
 import bonita from "../assets/bonita-logo.png";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const NavbarBackground = () => {
+  const location = useLocation();
+
   return (
     <div>
       {/* Navbar */}
@@ -30,22 +32,22 @@ const NavbarBackground = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <Link to="/" className="nav-link " href="#">
+          <Link to="/" className={`nav-link ${location.pathname === "/" ? "active-link" : ""}`}>
             Home
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/products" className="nav-link" href="#">
+          <Link to="/products" className={`nav-link ${location.pathname === "/products" ? "active-link" : ""}`}>
             Products
           </Link>
         </li>
         <li className="nav-item">
-          <Link to='/about' className="nav-link" href="#">
+          <Link to='/about' className={`nav-link ${location.pathname === "/about" ? "active-link" : ""}`}>
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link to='/contact' className="nav-link" href="#">
+          <Link to='/contact' className={`nav-link ${location.pathname === "/contact" ? "active-link" : ""}`}>
             Contact
           </Link>
         </li>

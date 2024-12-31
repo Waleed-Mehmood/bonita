@@ -10,4 +10,9 @@
   .navbar-nav .nav-link:hover {
     color: #D781A8;
   }
+
+  .active-link {
+    color: #D781A8 !important;
+    font-weight: bold;
+  }
   

@@ -9,7 +9,7 @@ export default function AboutStore() {
           <div className="col-12 col-lg-6  text-center text-lg-start mt-4 mt-lg-0 mb-4">
             <h2
               className="mb-4"
-              style={{ color: "#ff8ebf", fontWeight: "bold" }}
+              style={{ color: "#D781A8", fontWeight: "bold" }}
             >
               WELCOME!
             </h2>
@@ -33,7 +33,7 @@ export default function AboutStore() {
             to="/products"
               className="btn btn-pink px-4 py-2"
               style={{
-                background: "#ff8ebf",
+                background: "#D781A8",
                 color: "white",
                 borderRadius: "25px",
               }}

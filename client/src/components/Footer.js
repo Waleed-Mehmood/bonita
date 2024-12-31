@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="py-5" style={{ backgroundColor: "#f9c7d5" }}>
+    <footer className="py-5" style={{ backgroundColor: "#D781A8" }}>
       <div className="container">
         <div className="row text-center text-md-start">
           {/* Logo Section */}
@@ -13,7 +13,7 @@ const Footer = () => {
 
           {/* Menu Section */}
           <div className="col-md-4 mb-4">
-            <h6 className="fw-bold text-uppercase">Menu</h6>
+            <h6 className="fw-bold text-uppercase text-white">Menu</h6>
             <ul className="list-unstyled">
               <li>
                 <Link to="/" className="text-white text-decoration-none">
@@ -41,10 +41,10 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div className="col-md-4 mb-4">
-            <h6 className="fw-bold text-uppercase">Contact</h6>
-            <p>Bonita@contact.com</p>
-            <p>123-456-7891</p>
-            <p>DHA ,Islamabad</p>
+            <h6 className="fw-bold text-uppercase text-white">Contact</h6>
+            <p className="text-white">Bonita@contact.com</p>
+            <p className="text-white">123-456-7891</p>
+            <p className="text-white">DHA ,Islamabad</p>
           </div>
         </div>
 

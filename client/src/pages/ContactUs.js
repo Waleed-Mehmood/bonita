@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import NavbarBackground from "../components/NavbarBackground";
 
 const ContactUs = () => {
-  const primaryColor = "#fd8ebf";
+  const primaryColor = "#D781A8";
 
   return (
     <>
@@ -148,7 +148,7 @@ const ContactUs = () => {
                 type="submit"
                 className="btn btn-light w-100"
                 style={{
-                  backgroundColor: "#fd8ebf",
+                  backgroundColor: "#D781A8",
                   color: "white",
                   fontWeight: "bold",
                 }}

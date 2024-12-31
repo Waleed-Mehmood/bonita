@@ -29,7 +29,7 @@ const Analysis = () => {
     <section className="py-5">
       <div className="container">
         {/* Section Title */}
-        <h2 className=" mb-5" style={{ color: "#ff8ebf" }}>
+        <h2 className=" mb-5" style={{ color: "#D781A8" }}>
           Analysis
         </h2>
         {/* Row of Cards */}

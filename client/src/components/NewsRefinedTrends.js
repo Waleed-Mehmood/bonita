@@ -3,7 +3,7 @@ import React from "react";
 const NewsRefinedTrends = () => {
   return (
     <div className="container py-5">
-      <h2 className="text-center mb-4" style={{ color: "#D88AAE" }}>
+      <h2 className="text-center mb-4" style={{ color: "#D781A8" }}>
         News & Refined Trends
       </h2>
       <div className="row">

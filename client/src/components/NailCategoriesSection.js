@@ -30,13 +30,13 @@ const NailCategoriesSection = () => {
   return (
     <section className="py-5">
       <div className="container">
-        <h2 className="text-center mb-5" style={{ color: "#ff8ebf" }}>
+        <h2 className="text-center mb-5" style={{ color: "#D781A8" }}>
           Our Nail Products
         </h2>
         <div className="row text-center">
           {categories.map((category) => (
             <div key={category.id} className="col-12 col-md-6 mb-4">
-              <div className="card h-100 border-0 shadow-sm" style={{backgroundColor: "#ff8dbe"}}>
+              <div className="card h-100 border-0 shadow-sm" style={{backgroundColor: "#D781A8"}}>
                 <img
                   src={category.image}
                   alt={category.title}

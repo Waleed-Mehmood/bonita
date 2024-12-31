@@ -1,89 +1,3 @@
-// import React from "react";
-// import "./navbar.css";
-// import Image2 from '../assets/firstslide-second.png';
-// import Image3 from '../assets/firstslide-third.png';
-
-// const Navbar = () => {
-//   return (
-//     <>
-//       {/* Navbar */}
-//       <nav className="navbar navbar-expand-lg navbar-dark transparent-navbar">
-//         <div className="container">
-//           <a className="navbar-brand" href="#">
-//             Brand
-//           </a>
-//           <button
-//             className="navbar-toggler"
-//             type="button"
-//             data-bs-toggle="collapse"
-//             data-bs-target="#navbarNav"
-//             aria-controls="navbarNav"
-//             aria-expanded="false"
-//             aria-label="Toggle navigation"
-//           >
-//             <span className="navbar-toggler-icon"></span>
-//           </button>
-//           <div className="collapse navbar-collapse" id="navbarNav">
-//             <ul className="navbar-nav ms-auto">
-//               <li className="nav-item">
-//                 <a className="nav-link active" href="#">
-//                   Home
-//                 </a>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">
-//                   About
-//                 </a>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">
-//                   Services
-//                 </a>
-//               </li>
-//               <li className="nav-item">
-//                 <a className="nav-link" href="#">
-//                   Contact
-//                 </a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </nav>
-
-//       {/* Slider */}
-//       <div className="slider">
-//         <div className="slider-container">
-//           {/* Left Image */}
-//           <img
-//             src="https://static-01.daraz.pk/p/d37387cb5ed93408a86d22980dd2f8dc.jpg"
-//             alt="Left"
-//             className="slider-img left-img"
-//           />
-
-//           {/* Right Image */}
-//           <img
-//             src={Image2}
-//             alt="Right"
-//             className="slider-img right-img"
-//           />
-
-//           {/* Center Image */}
-//           <img
-//             src={Image3}
-//             alt="Center"
-//             className="slider-img center-img"
-//           />
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Navbar;
-
-
-
-
 import React from "react";
 import "./navbar.css";
 import bonita from "../assets/bonita-logo.png";
@@ -188,7 +102,7 @@ const Navbar = () => {
                 className="slider-img center-img"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Polished_purple_nails_with_nail_art_on.jpg/1200px-Polished_purple_nails_with_nail_art_on.jpg"
+                src="https://lh3.googleusercontent.com/proxy/3s_vEtvbOeV2txaerppVTsdHhMoqIlKG1gzXQorLTQT0koyePVAdobin2CYdWFACwo2d_Es41m7Ye9cp1z5QsBCSzCH9Mx0xsT0Bo7PxSGA4wM5lvienFOckw6Xd7gfJLJ2y5m52SY-NNC1nAoNypqbT6emAHli1UtixskT0S9tCqSo_3XusJFqWa6OdnBKaUw"
                 alt="Right"
                 className="slider-img right-img"
               />
@@ -226,7 +140,7 @@ const Navbar = () => {
                 className="slider-img center-img"
               />
               <img
-                src="https://www.inviteindia.com/blog/wp-content/uploads/2023/09/Benefits-of-nail-art-design.jpg"
+                src="https://sarangnails.com/wp-content/uploads/2021/12/132804739_220356639540959_9181213466884685313_n.jpg"
                 alt="Right"
                 className="slider-img right-img"
               />
