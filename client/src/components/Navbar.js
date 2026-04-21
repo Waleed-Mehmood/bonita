@@ -102,7 +102,7 @@ const Navbar = () => {
                 className="slider-img center-img"
               />
               <img
-                src="https://lh3.googleusercontent.com/proxy/3s_vEtvbOeV2txaerppVTsdHhMoqIlKG1gzXQorLTQT0koyePVAdobin2CYdWFACwo2d_Es41m7Ye9cp1z5QsBCSzCH9Mx0xsT0Bo7PxSGA4wM5lvienFOckw6Xd7gfJLJ2y5m52SY-NNC1nAoNypqbT6emAHli1UtixskT0S9tCqSo_3XusJFqWa6OdnBKaUw"
+                src="https://static-01.daraz.pk/p/8a452e648a2f53535f46e3df4b8d0646.jpg"
                 alt="Right"
                 className="slider-img right-img"
               />
@@ -113,7 +113,7 @@ const Navbar = () => {
           <div className="carousel-item">
             <div className="slider-container">
               <img
-                src="https://static-01.daraz.pk/p/d37387cb5ed93408a86d22980dd2f8dc.jpg"
+                src="https://www.australianbeautyschool.com.au/wp-content/uploads/3.jpg"
                 alt="Left"
                 className="slider-img left-img"
               />
@@ -130,7 +130,7 @@ const Navbar = () => {
           <div className="carousel-item">
             <div className="slider-container">
               <img
-                src="https://alaaya.pk/wp-content/uploads/2022/11/img5.jpg"
+                src="https://iloveluscious.com/cdn/shop/files/Pink-Tuxedo-Medium-French-With-Pearl-Bow-Press-On-Nails-Luscious.png?v=1744276654&width=3840"
                 alt="Left"
                 className="slider-img left-img"
               />
